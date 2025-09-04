@@ -1,0 +1,16 @@
+Ejecutar en CMD, el poweshell no funcionan algunos (VS code usa powershell)
+
+
+- Compilar
+    gcc {nombre}.c -o {nombreEjecutable}
+
+- Automatizar
+
+    - Mandar la salida a un documento .txt
+        .\{nombre}.exe {argumento} > {nombre_salida}.txt
+
+    - Usar datos de un documento .txt
+        .\{nombre}.exe < {nombre_datos}.txt
+
+    - Script (dentro de un .bat escribir los comandos como si fuese terminal)
+        .\script.bat 
