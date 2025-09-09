@@ -1,0 +1,800 @@
+
+Inicia la prueba de complejidad con n = 10000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 20000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 30000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 40000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 50000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 60000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 70000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 80000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 90000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 100000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 110000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 120000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 130000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 140000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 150000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 160000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 170000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 180000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 190000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 200000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 210000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 220000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 230000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 240000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 250000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 260000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 270000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 280000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 290000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 300000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 310000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 320000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 330000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 340000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 350000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 360000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 370000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 380000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 390000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 400000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 410000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 420000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 430000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 440000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 450000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 460000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 470000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 480000
+
+A cicloSuma le tomó 0.001000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 490000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 500000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 510000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 520000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 530000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 540000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 550000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 560000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 570000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 580000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 590000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 600000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 610000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 620000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 630000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 640000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 650000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 660000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 670000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 680000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.000000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 690000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 700000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 710000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 720000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 730000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 740000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 750000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 760000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 770000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 780000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 790000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 800000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 810000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 820000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 830000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 840000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 850000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 860000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 870000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 880000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 890000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 900000
+
+A cicloSuma le tomó 0.001000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 910000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 920000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 930000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 940000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.002000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 950000
+
+A cicloSuma le tomó 0.001000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 960000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.002000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 970000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.002000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 980000
+
+A cicloSuma le tomó 0.001000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 990000
+
+A cicloSuma le tomó 0.001000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.001000 segundos ejecutarse
+
+Prueba completada.
+
+Inicia la prueba de complejidad con n = 1000000
+
+A cicloSuma le tomó 0.000000 segundos ejecutarse
+A cicloMultiplicacion le tomó 0.000000 segundos ejecutarse
+A cicloResta le tomó 0.002000 segundos ejecutarse
+
+Prueba completada.

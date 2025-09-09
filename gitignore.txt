@@ -1,0 +1,17 @@
+# Ignorar archivos compilados y ejecutables
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Ignorar archivos de compilación y build
+bin/
+obj/
+build/
+out/
+Debug/
+Release/
+x64/
+x86/
