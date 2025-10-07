@@ -1,0 +1,200 @@
+Tamaño: 10,000 elementos
+Tiempo total: 21.50 ms
+Tamaño: 20,000 elementos
+Tiempo total: 71.10 ms
+Tamaño: 30,000 elementos
+Tiempo total: 146.20 ms
+Tamaño: 40,000 elementos
+Tiempo total: 257.70 ms
+Tamaño: 50,000 elementos
+Tiempo total: 441.30 ms
+Tamaño: 60,000 elementos
+Tiempo total: 448.90 ms
+Tamaño: 70,000 elementos
+Tiempo total: 613.90 ms
+Tamaño: 80,000 elementos
+Tiempo total: 1027.60 ms
+Tamaño: 90,000 elementos
+Tiempo total: 1008.10 ms
+Tamaño: 100,000 elementos
+Tiempo total: 1414.70 ms
+Tamaño: 110,000 elementos
+Tiempo total: 1884.10 ms
+Tamaño: 120,000 elementos
+Tiempo total: 2538.30 ms
+Tamaño: 130,000 elementos
+Tiempo total: 2311.40 ms
+Tamaño: 140,000 elementos
+Tiempo total: 2564.60 ms
+Tamaño: 150,000 elementos
+Tiempo total: 2949.60 ms
+Tamaño: 160,000 elementos
+Tiempo total: 3186.10 ms
+Tamaño: 170,000 elementos
+Tiempo total: 5087.60 ms
+Tamaño: 180,000 elementos
+Tiempo total: 4051.90 ms
+Tamaño: 190,000 elementos
+Tiempo total: 5748.60 ms
+Tamaño: 200,000 elementos
+Tiempo total: 4999.80 ms
+Tamaño: 210,000 elementos
+Tiempo total: 5484.70 ms
+Tamaño: 220,000 elementos
+Tiempo total: 7769.20 ms
+Tamaño: 230,000 elementos
+Tiempo total: 8421.60 ms
+Tamaño: 240,000 elementos
+Tiempo total: 9177.00 ms
+Tamaño: 250,000 elementos
+Tiempo total: 9969.00 ms
+Tamaño: 260,000 elementos
+Tiempo total: 10777.50 ms
+Tamaño: 270,000 elementos
+Tiempo total: 11599.80 ms
+Tamaño: 280,000 elementos
+Tiempo total: 12664.20 ms
+Tamaño: 290,000 elementos
+Tiempo total: 13767.30 ms
+Tamaño: 300,000 elementos
+Tiempo total: 14334.30 ms
+Tamaño: 310,000 elementos
+Tiempo total: 12012.90 ms
+Tamaño: 320,000 elementos
+Tiempo total: 12782.00 ms
+Tamaño: 330,000 elementos
+Tiempo total: 17898.80 ms
+Tamaño: 340,000 elementos
+Tiempo total: 14452.50 ms
+Tamaño: 350,000 elementos
+Tiempo total: 15307.90 ms
+Tamaño: 360,000 elementos
+Tiempo total: 20962.90 ms
+Tamaño: 370,000 elementos
+Tiempo total: 22374.30 ms
+Tamaño: 380,000 elementos
+Tiempo total: 23226.70 ms
+Tamaño: 390,000 elementos
+Tiempo total: 24797.60 ms
+Tamaño: 400,000 elementos
+Tiempo total: 25961.50 ms
+Tamaño: 410,000 elementos
+Tiempo total: 27078.30 ms
+Tamaño: 420,000 elementos
+Tiempo total: 28523.00 ms
+Tamaño: 430,000 elementos
+Tiempo total: 29719.20 ms
+Tamaño: 440,000 elementos
+Tiempo total: 31431.40 ms
+Tamaño: 450,000 elementos
+Tiempo total: 25531.10 ms
+Tamaño: 460,000 elementos
+Tiempo total: 26725.50 ms
+Tamaño: 470,000 elementos
+Tiempo total: 27605.30 ms
+Tamaño: 480,000 elementos
+Tiempo total: 38353.70 ms
+Tamaño: 490,000 elementos
+Tiempo total: 30293.80 ms
+Tamaño: 500,000 elementos
+Tiempo total: 31393.10 ms
+Tamaño: 510,000 elementos
+Tiempo total: 33384.70 ms
+Tamaño: 520,000 elementos
+Tiempo total: 43711.50 ms
+Tamaño: 530,000 elementos
+Tiempo total: 45799.80 ms
+Tamaño: 540,000 elementos
+Tiempo total: 36972.90 ms
+Tamaño: 550,000 elementos
+Tiempo total: 37909.90 ms
+Tamaño: 560,000 elementos
+Tiempo total: 51055.70 ms
+Tamaño: 570,000 elementos
+Tiempo total: 41570.10 ms
+Tamaño: 580,000 elementos
+Tiempo total: 55122.70 ms
+Tamaño: 590,000 elementos
+Tiempo total: 43832.40 ms
+Tamaño: 600,000 elementos
+Tiempo total: 57602.60 ms
+Tamaño: 610,000 elementos
+Tiempo total: 59336.10 ms
+Tamaño: 620,000 elementos
+Tiempo total: 66372.70 ms
+Tamaño: 630,000 elementos
+Tiempo total: 63943.60 ms
+Tamaño: 640,000 elementos
+Tiempo total: 65904.50 ms
+Tamaño: 650,000 elementos
+Tiempo total: 68034.30 ms
+Tamaño: 660,000 elementos
+Tiempo total: 69711.60 ms
+Tamaño: 670,000 elementos
+Tiempo total: 72014.30 ms
+Tamaño: 680,000 elementos
+Tiempo total: 74279.00 ms
+Tamaño: 690,000 elementos
+Tiempo total: 59861.40 ms
+Tamaño: 700,000 elementos
+Tiempo total: 61234.70 ms
+Tamaño: 710,000 elementos
+Tiempo total: 81311.10 ms
+Tamaño: 720,000 elementos
+Tiempo total: 65015.40 ms
+Tamaño: 730,000 elementos
+Tiempo total: 85484.90 ms
+Tamaño: 740,000 elementos
+Tiempo total: 69633.40 ms
+Tamaño: 750,000 elementos
+Tiempo total: 90508.20 ms
+Tamaño: 760,000 elementos
+Tiempo total: 98731.00 ms
+Tamaño: 770,000 elementos
+Tiempo total: 99506.40 ms
+Tamaño: 780,000 elementos
+Tiempo total: 118238.90 ms
+Tamaño: 790,000 elementos
+Tiempo total: 84195.20 ms
+Tamaño: 800,000 elementos
+Tiempo total: 83290.40 ms
+Tamaño: 810,000 elementos
+Tiempo total: 86751.60 ms
+Tamaño: 820,000 elementos
+Tiempo total: 112110.20 ms
+Tamaño: 830,000 elementos
+Tiempo total: 114970.80 ms
+Tamaño: 840,000 elementos
+Tiempo total: 93157.10 ms
+Tamaño: 850,000 elementos
+Tiempo total: 96131.20 ms
+Tamaño: 860,000 elementos
+Tiempo total: 123589.80 ms
+Tamaño: 870,000 elementos
+Tiempo total: 127520.80 ms
+Tamaño: 880,000 elementos
+Tiempo total: 102571.30 ms
+Tamaño: 890,000 elementos
+Tiempo total: 104137.20 ms
+Tamaño: 900,000 elementos
+Tiempo total: 136427.90 ms
+Tamaño: 910,000 elementos
+Tiempo total: 138039.10 ms
+Tamaño: 920,000 elementos
+Tiempo total: 141468.40 ms
+Tamaño: 930,000 elementos
+Tiempo total: 144628.60 ms
+Tamaño: 940,000 elementos
+Tiempo total: 150227.90 ms
+Tamaño: 950,000 elementos
+Tiempo total: 153406.00 ms
+Tamaño: 960,000 elementos
+Tiempo total: 157677.60 ms
+Tamaño: 970,000 elementos
+Tiempo total: 159300.30 ms
+Tamaño: 980,000 elementos
+Tiempo total: 167143.80 ms
+Tamaño: 990,000 elementos
+Tiempo total: 251241.00 ms
+Tamaño: 1,000,000 elementos
+Tiempo total: 251339.50 ms
