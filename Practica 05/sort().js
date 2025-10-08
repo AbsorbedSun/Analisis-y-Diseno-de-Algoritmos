@@ -122,9 +122,7 @@ function nativeSort() {
  * @param {number} step - Incremento en cada iteración (default: 10000)
  */
 function testSortAleatorio(maxSize, step = 1000) {
-  console.log("\n========================================");
   console.log("PRUEBA: Sort() con DATOS ALEATORIOS");
-  console.log("========================================");
 
   for (var i = step; i <= maxSize; i += step) {
     // Crear y configurar arreglo de prueba con datos aleatorios
@@ -155,9 +153,7 @@ function testSortAleatorio(maxSize, step = 1000) {
  * @param {number} step - Incremento en cada iteración (default: 10000)
  */
 function testSortInverso(maxSize, step = 1000) {
-  console.log("\n========================================");
   console.log("PRUEBA: Sort() con DATOS EN ORDEN INVERSO");
-  console.log("========================================");
 
   for (var i = step; i <= maxSize; i += step) {
     // Crear y configurar arreglo de prueba con datos en orden inverso
@@ -197,10 +193,5 @@ function compararRendimiento(maxSize) {
   testSortInverso(maxSize);
 }
 
-// =============================================
-// EJECUCIÓN DE PRUEBAS DE RENDIMIENTO
-// =============================================
-
 // Ejecutar comparación completa con arreglos de hasta 100,000 elementos
-// Puedes modificar este valor según tus necesidades
 compararRendimiento(1000000);
