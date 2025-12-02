@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programación de Entrevistas - Posgrado</title>
+    <!-- Enlazar el archivo CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Encabezado de la aplicación -->
+      <div class="header">
+        <h1>Sistema de Programación de Entrevistas</h1>
+        <p>Departamento Académico de Ciencias Cibernéticas del Futuro</p>
+      </div>
+
+      <div class="content">
+        <!-- Sección de visualización de datos cargados -->
+        <div class="section">
+          <h2>📊 Datos del Sistema</h2>
+
+          <div class="data-display">
+            <div class="data-card">
+              <h3>👨‍🏫 Horarios de Profesores</h3>
+              <div id="professorsDisplay" class="professors-list"></div>
+            </div>
+
+            <div class="data-card">
+              <h3>👥 Equipos de Aspirantes</h3>
+              <div id="teamsDisplay" class="teams-list"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sección de configuración de parámetros -->
+        <div class="section">
+          <h2>⚙️ Configurar Parámetros de Programación</h2>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Fecha de inicio del período</label>
+              <input type="date" id="startDate" value="2025-12-05" />
+            </div>
+            <div class="form-group">
+              <label>Fecha de fin del período</label>
+              <input type="date" id="endDate" value="2025-12-09" />
+            </div>
+            <div class="form-group">
+              <label>Días no hábiles (separados por coma)</label>
+              <input
+                type="text"
+                id="nonWorkingDays"
+                placeholder="Ej: 6,7 para sábado y domingo"
+                value="6,7"
+              />
+              <small
+                >0=Domingo, 1=Lunes, 2=Martes, 3=Miércoles, 4=Jueves, 5=Viernes,
+                6=Sábado</small
+              >
+            </div>
+            <div class="form-group">
+              <label>Hora de inicio del horario</label>
+              <input type="time" id="startTime" value="09:00" />
+            </div>
+            <div class="form-group">
+              <label>Hora de fin del horario</label>
+              <input type="time" id="endTime" value="18:00" />
+            </div>
+            <div class="form-group">
+              <label>Duración de entrevista (horas)</label>
+              <select id="duration">
+                <option value="1">1 hora</option>
+                <option value="2" selected>2 horas</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Entrevistas concurrentes (M)</label>
+              <input type="number" id="concurrent" value="3" min="1" />
+            </div>
+          </div>
+
+          <!-- Botón para generar la programación -->
+          <button
+            class="btn btn-primary"
+            onclick="scheduleInterviews()"
+            id="scheduleBtn"
+          >
+            🚀 Generar Programación
+          </button>
+        </div>
+
+        <!-- Sección donde se mostrarán los resultados -->
+        <div id="results" class="results"></div>
+      </div>
+    </div>
+
+    <!-- Enlazar el archivo JavaScript -->
+    <script src="logica.js"></script>
+  </body>
+</html>
