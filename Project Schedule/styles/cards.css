@@ -1,0 +1,396 @@
+/* ============================================================================
+   TARJETAS BASE
+   ============================================================================ */
+
+.bento-card {
+  border-radius: 24px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.bento-card:hover {
+  transform: translateY(-2px);
+}
+
+/* ============================================================================
+   TARJETA DE CONFIGURACIÓN
+   ============================================================================ */
+
+.card-config {
+  background: linear-gradient(135deg, #a8d8ea 0%, #7fb3d5 100%);
+}
+
+.config-header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.7fr;
+  gap: 12px;
+  align-items: end;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-field label {
+  font-size: 0.85em;
+  color: #2c5f7f;
+  font-weight: 600;
+}
+
+.input-field input {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.95em;
+  background: rgba(255, 255, 255, 0.9);
+  color: #2c3e50;
+}
+
+.input-field input:focus {
+  outline: 2px solid #5a8fb8;
+  background: white;
+}
+
+.btn-action {
+  padding: 12px 20px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.95em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.btn-action:hover {
+  background: #357abd;
+  transform: scale(1.02);
+}
+
+/* ============================================================================
+   TARJETA TOTAL
+   ============================================================================ */
+
+.card-total {
+  background: linear-gradient(135deg, #6c9bd1 0%, #5180b8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total-content {
+  text-align: center;
+  color: white;
+}
+
+.total-number {
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.total-label {
+  font-size: 1.1em;
+  font-weight: 500;
+  opacity: 0.95;
+}
+
+/* ============================================================================
+   TARJETAS DE LISTA
+   ============================================================================ */
+
+.card-list {
+  background: linear-gradient(135deg, #e8f4f8 0%, #d4e9f3 100%);
+  min-height: 350px;
+}
+
+.list-title {
+  font-size: 1em;
+  color: #2c5f7f;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.list-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 280px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.list-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+.list-content::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.list-content::-webkit-scrollbar-thumb {
+  background: #5a8fb8;
+  border-radius: 10px;
+}
+
+/* Items de lista */
+.professor-item,
+.team-item {
+  background: white;
+  padding: 14px 16px;
+  border-radius: 14px;
+  transition: transform 0.2s ease;
+}
+
+.professor-item:hover,
+.team-item:hover {
+  transform: translateX(3px);
+}
+
+.professor-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.professor-name,
+.team-header {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 0.95em;
+}
+
+.professor-schedule {
+  font-size: 0.85em;
+  color: #5a6c7d;
+}
+
+.team-header {
+  margin-bottom: 10px;
+}
+
+.team-professors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.team-professor-tag {
+  background: #5a8fb8;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+/* ============================================================================
+   TARJETAS DE AGREGAR
+   ============================================================================ */
+
+.card-add {
+  background: linear-gradient(135deg, #d4e9f3 0%, #b8dcea 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.card-add:hover {
+  background: linear-gradient(135deg, #b8dcea 0%, #a0cfe5 100%);
+  transform: translateY(-3px);
+}
+
+.add-content {
+  text-align: center;
+}
+
+.add-icon {
+  font-size: 2.5em;
+  margin-bottom: 8px;
+}
+
+.add-text {
+  font-size: 1em;
+  color: #2c5f7f;
+  font-weight: 600;
+}
+
+/* ============================================================================
+   TARJETA DE RESULTADOS
+   ============================================================================ */
+
+.card-results {
+  grid-column: span 2;
+  background: linear-gradient(135deg, #e8f4f8 0%, #d4e9f3 100%);
+  min-height: 300px;
+}
+
+.results-content {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+/* Estadísticas */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.stat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  border: 2px solid #5a8fb8;
+}
+
+.stat-card .stat-number {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #2c5f7f;
+  margin-bottom: 5px;
+}
+
+.stat-card .stat-label {
+  font-size: 0.9em;
+  color: #5a6c7d;
+}
+
+/* Alertas */
+.alert {
+  padding: 18px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 0.95em;
+}
+
+.alert-success {
+  background: #d4edda;
+  color: #155724;
+  border: 2px solid #28a745;
+}
+
+.alert-warning {
+  background: #fff3cd;
+  color: #856404;
+  border: 2px solid #ffc107;
+}
+
+.alert-error {
+  background: #f8d7da;
+  color: #721c24;
+  border: 2px solid #dc3545;
+}
+
+/* Programación por día */
+.schedule-day {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 18px;
+  border: 2px solid #5a8fb8;
+}
+
+.schedule-day h3 {
+  color: #2c5f7f;
+  margin-bottom: 15px;
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+.interview-slot {
+  background: #f0f7fb;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  border-left: 4px solid #5a8fb8;
+}
+
+.interview-slot.concurrent {
+  background: #f5f0fb;
+  border-left-color: #8e44ad;
+}
+
+.interview-header {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+.interview-details {
+  color: #5a6c7d;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.professors {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.professor-tag {
+  background: #5a8fb8;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+/* Entrevistas no programadas */
+.no-schedule {
+  background: #ffebee;
+  padding: 18px;
+  border-radius: 14px;
+  border-left: 4px solid #e74c3c;
+  margin-bottom: 12px;
+}
+
+.no-schedule h4 {
+  color: #c0392b;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.no-schedule p {
+  color: #e74c3c;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+
+/* ============================================================================
+   RESPONSIVE
+   ============================================================================ */
+
+@media (max-width: 900px) {
+  .input-row {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+}

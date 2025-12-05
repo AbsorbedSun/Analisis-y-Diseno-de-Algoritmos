@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programación de Entrevistas</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/cards.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <h1 class="project-name">Programación de Entrevistas</h1>
+      </header>
+
+      <!-- Bento Grid -->
+      <div class="bento-grid">
+        <!-- Configuración -->
+        <div class="bento-card card-config">
+          <div class="config-header">
+            <div class="input-row">
+              <div class="input-field">
+                <label>Fecha Inicio</label>
+                <input type="date" id="startDate" value="2025-12-05" />
+              </div>
+              <div class="input-field">
+                <label>Hora Inicio</label>
+                <input type="time" id="startTime" value="09:00" />
+              </div>
+              <div class="input-field small">
+                <label>Días no hábiles</label>
+                <input
+                  type="text"
+                  placeholder="6,7"
+                  id="nonWorkingDays"
+                  value="6,7"
+                />
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="input-field">
+                <label>Fecha Fin</label>
+                <input type="date" id="endDate" value="2025-12-09" />
+              </div>
+              <div class="input-field">
+                <label>Hora Fin</label>
+                <input type="time" id="endTime" value="18:00" />
+              </div>
+              <div class="input-field small">
+                <label>Duración (hrs)</label>
+                <input type="number" id="duration" value="2" min="1" max="4" />
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="input-field">
+                <label>Concurrencia máxima</label>
+                <input
+                  type="number"
+                  id="concurrent"
+                  value="3"
+                  min="1"
+                  max="10"
+                />
+              </div>
+              <div class="input-field" style="grid-column: span 2">
+                <button class="btn-action" onclick="scheduleInterviews()">
+                  🗓️ Generar Programación
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Total -->
+        <div class="bento-card card-total">
+          <div class="total-content">
+            <div class="total-number" id="totalInterviews">8</div>
+            <div class="total-label">Total de citas</div>
+          </div>
+        </div>
+
+        <!-- Profesores -->
+        <div class="bento-card card-list">
+          <h3 class="list-title">👨‍🏫 Profesores y horarios disponibles</h3>
+          <div id="professorsDisplay" class="list-content"></div>
+        </div>
+
+        <!-- Aspirantes -->
+        <div class="bento-card card-list">
+          <h3 class="list-title">📋 Equipos de entrevista</h3>
+          <div id="teamsDisplay" class="list-content"></div>
+        </div>
+
+        <!-- Agregar Aspirantes -->
+        <div class="bento-card card-add" onclick="openAddTeamModal()">
+          <div class="add-content">
+            <div class="add-icon">➕</div>
+            <div class="add-text">Agregar aspirante</div>
+          </div>
+        </div>
+
+        <!-- Agregar Profesores -->
+        <div class="bento-card card-add" onclick="openAddProfessorModal()">
+          <div class="add-content">
+            <div class="add-icon">➕</div>
+            <div class="add-text">Agregar profesor</div>
+          </div>
+        </div>
+
+        <!-- Resultados -->
+        <div
+          class="bento-card card-results"
+          id="resultsCard"
+          style="display: none"
+        >
+          <h3 class="list-title">📊 Programación generada</h3>
+          <div id="results" class="results-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Agregar Profesor -->
+    <div id="professorModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>👨‍🏫 Agregar Profesor</h2>
+          <span class="close" onclick="closeModal('professorModal')"
+            >&times;</span
+          >
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>Nombre del profesor</label>
+            <input type="text" id="profName" placeholder="Ej: Dr. García" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Hora inicio</label>
+              <input type="time" id="profStartTime" value="08:00" />
+            </div>
+            <div class="form-group">
+              <label>Hora fin</label>
+              <input type="time" id="profEndTime" value="16:00" />
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" onclick="closeModal('professorModal')">
+            Cancelar
+          </button>
+          <button class="btn-primary" onclick="addProfessor()">Agregar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Agregar Aspirante -->
+    <div id="teamModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>📝 Agregar Aspirante</h2>
+          <span class="close" onclick="closeModal('teamModal')">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>Seleccionar 3 profesores para el equipo</label>
+            <div id="professorCheckboxes" class="checkbox-group"></div>
+          </div>
+          <div
+            id="selectionWarning"
+            class="warning-message"
+            style="display: none"
+          >
+            Debes seleccionar exactamente 3 profesores
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" onclick="closeModal('teamModal')">
+            Cancelar
+          </button>
+          <button class="btn-primary" onclick="addTeam()">Agregar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/scheduler.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
