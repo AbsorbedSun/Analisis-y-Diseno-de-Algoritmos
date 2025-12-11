@@ -2,20 +2,13 @@
  * ============================================================================
  * FUNCIONES AUXILIARES
  * ============================================================================
- * Funciones de utilidad para conversión de tiempo, fechas, etc.
  */
 
-/**
- * Convierte un string de tiempo "HH:MM" a minutos desde medianoche
- */
 function timeToMinutes(timeStr) {
   const parts = timeStr.split(":");
   return parseInt(parts[0]) * 60 + parseInt(parts[1]);
 }
 
-/**
- * Convierte minutos desde medianoche a formato "HH:MM"
- */
 function formatTime(minutes) {
   const hours = Math.floor(minutes / 60);
   const mins = minutes % 60;
@@ -25,84 +18,69 @@ function formatTime(minutes) {
 }
 
 /**
- * Genera una lista de días hábiles entre dos fechas
+ * Genera días hábiles (lunes a viernes) entre dos fechas
+ * CORREGIDO: Maneja fechas correctamente sin problemas de zona horaria
  */
-function getWorkingDays(startDate, endDate, nonWorkingDays) {
+function getWorkingDays(startDate, endDate) {
   const days = [];
-  let current = new Date(startDate);
 
-  while (current <= endDate) {
-    const dayOfWeek = current.getDay();
+  // Crear fechas locales sin problemas de zona horaria
+  const start = new Date(
+    startDate.getFullYear(),
+    startDate.getMonth(),
+    startDate.getDate()
+  );
+  const end = new Date(
+    endDate.getFullYear(),
+    endDate.getMonth(),
+    endDate.getDate()
+  );
+  const current = new Date(start);
 
-    if (!nonWorkingDays.includes(dayOfWeek)) {
-      days.push(new Date(current));
+  console.log("🔍 Generando días hábiles:");
+  console.log(
+    `  Desde: ${current.toLocaleDateString("es-ES", {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    })}`
+  );
+  console.log(
+    `  Hasta: ${end.toLocaleDateString("es-ES", {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    })}`
+  );
+
+  while (current <= end) {
+    const dayOfWeek = current.getDay(); // 0=Domingo, 1=Lunes, ..., 6=Sábado
+    const dayName = current.toLocaleDateString("es-ES", { weekday: "long" });
+
+    // Solo incluir días de lunes (1) a viernes (5)
+    if (dayOfWeek >= 1 && dayOfWeek <= 5) {
+      const workingDay = new Date(
+        current.getFullYear(),
+        current.getMonth(),
+        current.getDate()
+      );
+      days.push(workingDay);
+      console.log(`  ✅ ${dayName} ${current.getDate()} - DÍA HÁBIL`);
+    } else {
+      console.log(
+        `  ❌ ${dayName} ${current.getDate()} - NO HÁBIL (fin de semana)`
+      );
     }
 
     current.setDate(current.getDate() + 1);
   }
 
+  console.log(`📅 Total días hábiles encontrados: ${days.length}`);
   return days;
 }
 
-/**
- * Verifica si todos los profesores están disponibles en un horario
- */
-function checkProfessorsAvailable(professorNames, startTime, duration) {
-  for (let profName of professorNames) {
-    const prof = professorsData.find((p) => p.name === profName);
-    if (!prof) continue;
-
-    if (startTime < prof.startTime || startTime + duration > prof.endTime) {
-      return false;
-    }
-  }
-  return true;
-}
-
-/**
- * Cuenta entrevistas concurrentes en un slot de tiempo
- */
-function countConcurrentInterviews(schedule, day, startTime, duration) {
-  let count = 0;
-  const endTime = startTime + duration;
-
-  for (let entry of schedule) {
-    if (entry.day.getTime() !== day.getTime()) continue;
-
-    // Verificar solapamiento
-    if (!(entry.endTime <= startTime || entry.startTime >= endTime)) {
-      count++;
-    }
-  }
-
-  return count;
-}
-
-/**
- * Verifica si algún profesor está ocupado en un slot
- */
-function isProfessorBusy(professorNames, schedule, day, startTime, duration) {
-  const endTime = startTime + duration;
-
-  for (let entry of schedule) {
-    if (entry.day.getTime() !== day.getTime()) continue;
-
-    // Hay solapamiento de horario
-    if (!(entry.endTime <= startTime || entry.startTime >= endTime)) {
-      for (let profName of professorNames) {
-        if (entry.team.professors.includes(profName)) {
-          return true;
-        }
-      }
-    }
-  }
-
-  return false;
-}
-
-/**
- * Formatea una fecha para mostrar
- */
 function formatDate(date) {
   return date.toLocaleDateString("es-ES", {
     weekday: "long",
@@ -110,4 +88,62 @@ function formatDate(date) {
     month: "long",
     day: "numeric",
   });
+}
+
+/**
+ * Compara si dos fechas son el mismo día (ignora hora)
+ */
+function isSameDay(date1, date2) {
+  return (
+    date1.getFullYear() === date2.getFullYear() &&
+    date1.getMonth() === date2.getMonth() &&
+    date1.getDate() === date2.getDate()
+  );
+}
+
+function checkProfessorsAvailable(professorNames, startTime, duration) {
+  for (let profName of professorNames) {
+    const prof = professorsData.find((p) => p.name === profName);
+    if (!prof) continue;
+    if (startTime < prof.startTime || startTime + duration > prof.endTime) {
+      return false;
+    }
+  }
+  return true;
+}
+
+function isProfessorBusy(professorNames, schedule, day, startTime, duration) {
+  const endTime = startTime + duration;
+
+  for (let entry of schedule) {
+    // Comparar solo la fecha (sin hora) usando componentes de fecha
+    if (!isSameDay(entry.day, day)) continue;
+
+    // Verificar solapamiento de tiempo: (start1 < end2) AND (start2 < end1)
+    const hasOverlap = startTime < entry.endTime && entry.startTime < endTime;
+
+    if (hasOverlap) {
+      for (let profName of professorNames) {
+        if (entry.team.professors.includes(profName)) {
+          return true;
+        }
+      }
+    }
+  }
+  return false;
+}
+
+function countConcurrentInterviews(schedule, day, startTime, duration) {
+  let count = 0;
+  const endTime = startTime + duration;
+
+  for (let entry of schedule) {
+    if (!isSameDay(entry.day, day)) continue;
+
+    const hasOverlap = startTime < entry.endTime && entry.startTime < endTime;
+    if (hasOverlap) {
+      count++;
+    }
+  }
+  return count;
 }

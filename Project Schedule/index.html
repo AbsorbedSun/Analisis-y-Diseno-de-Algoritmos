@@ -10,7 +10,6 @@
   </head>
   <body>
     <div class="container">
-      <!-- Header -->
       <header class="header">
         <div class="menu-icon">
           <span></span>
@@ -18,67 +17,61 @@
           <span></span>
         </div>
         <h1 class="project-name">Programación de Entrevistas</h1>
+        <div class="algorithm-badge">🚀 Algoritmo Voraz</div>
       </header>
 
-      <!-- Bento Grid -->
       <div class="bento-grid">
-        <!-- Configuración -->
         <div class="bento-card card-config">
-          <div class="config-header">
-            <div class="input-row">
-              <div class="input-field">
-                <label>Fecha Inicio</label>
-                <input type="date" id="startDate" value="2025-12-05" />
-              </div>
-              <div class="input-field">
-                <label>Hora Inicio</label>
-                <input type="time" id="startTime" value="09:00" />
-              </div>
-              <div class="input-field small">
-                <label>Días no hábiles</label>
-                <input
-                  type="text"
-                  placeholder="6,7"
-                  id="nonWorkingDays"
-                  value="6,7"
-                />
-              </div>
+          <div class="input-row">
+            <div class="input-field">
+              <label>Fecha Inicio</label>
+              <input type="date" id="startDate" />
             </div>
-            <div class="input-row">
-              <div class="input-field">
-                <label>Fecha Fin</label>
-                <input type="date" id="endDate" value="2025-12-09" />
-              </div>
-              <div class="input-field">
-                <label>Hora Fin</label>
-                <input type="time" id="endTime" value="18:00" />
-              </div>
-              <div class="input-field small">
-                <label>Duración (hrs)</label>
-                <input type="number" id="duration" value="2" min="1" max="4" />
-              </div>
+            <div class="input-field">
+              <label>Hora Inicio</label>
+              <input type="time" id="startTime" value="09:00" />
             </div>
-            <div class="input-row">
-              <div class="input-field">
-                <label>Concurrencia máxima</label>
-                <input
-                  type="number"
-                  id="concurrent"
-                  value="3"
-                  min="1"
-                  max="10"
-                />
-              </div>
-              <div class="input-field" style="grid-column: span 2">
-                <button class="btn-action" onclick="scheduleInterviews()">
-                  🗓️ Generar Programación
-                </button>
-              </div>
+            <div class="input-field">
+              <label>Días no hábiles</label>
+              <input
+                type="text"
+                value="Sáb y Dom"
+                disabled
+                style="
+                  background: #e8f4f8;
+                  cursor: not-allowed;
+                  text-align: center;
+                "
+              />
+            </div>
+          </div>
+          <div class="input-row">
+            <div class="input-field">
+              <label>Fecha Fin</label>
+              <input type="date" id="endDate" />
+            </div>
+            <div class="input-field">
+              <label>Hora Fin</label>
+              <input type="time" id="endTime" value="18:00" />
+            </div>
+            <div class="input-field">
+              <label>Duración (hrs)</label>
+              <input type="number" id="duration" value="2" min="1" max="4" />
+            </div>
+          </div>
+          <div class="input-row">
+            <div class="input-field">
+              <label>Concurrencia máxima</label>
+              <input type="number" id="concurrent" value="3" min="1" max="10" />
+            </div>
+            <div class="input-field" style="grid-column: span 2">
+              <button class="btn-action" onclick="scheduleInterviews()">
+                🗓️ Generar Programación
+              </button>
             </div>
           </div>
         </div>
 
-        <!-- Total -->
         <div class="bento-card card-total">
           <div class="total-content">
             <div class="total-number" id="totalInterviews">8</div>
@@ -86,19 +79,16 @@
           </div>
         </div>
 
-        <!-- Profesores -->
         <div class="bento-card card-list">
           <h3 class="list-title">👨‍🏫 Profesores y horarios disponibles</h3>
           <div id="professorsDisplay" class="list-content"></div>
         </div>
 
-        <!-- Aspirantes -->
         <div class="bento-card card-list">
           <h3 class="list-title">📋 Equipos de entrevista</h3>
           <div id="teamsDisplay" class="list-content"></div>
         </div>
 
-        <!-- Agregar Aspirantes -->
         <div class="bento-card card-add" onclick="openAddTeamModal()">
           <div class="add-content">
             <div class="add-icon">➕</div>
@@ -106,7 +96,6 @@
           </div>
         </div>
 
-        <!-- Agregar Profesores -->
         <div class="bento-card card-add" onclick="openAddProfessorModal()">
           <div class="add-content">
             <div class="add-icon">➕</div>
@@ -114,19 +103,17 @@
           </div>
         </div>
 
-        <!-- Resultados -->
         <div
           class="bento-card card-results"
           id="resultsCard"
           style="display: none"
         >
           <h3 class="list-title">📊 Programación generada</h3>
-          <div id="results" class="results-content"></div>
+          <div id="results"></div>
         </div>
       </div>
     </div>
 
-    <!-- Modal Agregar Profesor -->
     <div id="professorModal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
@@ -160,7 +147,6 @@
       </div>
     </div>
 
-    <!-- Modal Agregar Aspirante -->
     <div id="teamModal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
@@ -189,7 +175,7 @@
       </div>
     </div>
 
-    <!-- Scripts -->
+    <!-- SCRIPTS EN ORDEN -->
     <script src="js/data.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/scheduler.js"></script>
